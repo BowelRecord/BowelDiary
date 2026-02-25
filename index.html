@@ -501,7 +501,35 @@
                         </div>
                     </div>
                 </div>
+<!-- 新增：是否使用瀉藥 -->
+                <div class="form-group">
+                    <label>是否有使用瀉藥（例如口服瀉藥、軟便劑等）</label>
+                    <div class="radio-group">
+                        <div class="radio-option">
+                            <input type="radio" id="laxative-yes" name="laxative" value="是" required>
+                            <label for="laxative-yes">是</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="laxative-no" name="laxative" value="否" required>
+                            <label for="laxative-no">否</label>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- 新增：是否使用灌腸劑／洗腸 -->
+                <div class="form-group">
+                    <label>是否有使用灌腸劑（例如甘油條、灌腸液等）</label>
+                    <div class="radio-group">
+                        <div class="radio-option">
+                            <input type="radio" id="enema-yes" name="enema" value="是" required>
+                            <label for="enema-yes">是</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="enema-no" name="enema" value="否" required>
+                            <label for="enema-no">否</label>
+                        </div>
+                    </div>
+                </div>
                 <div class="btn-group">
                     <button type="submit" class="btn btn-primary">新增記錄</button>
                     <button type="button" class="btn btn-secondary" id="exportBtn">匯出記錄</button>
